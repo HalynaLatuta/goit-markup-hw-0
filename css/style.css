@@ -160,7 +160,8 @@ img {
 .phone-svg,
 .mail-svg {
   fill: currentColor;
-  margin-right: 10px;
+  padding-right: 10px;
+  align-content: center;
 }
 
 /*main*/
@@ -260,7 +261,7 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .our-works-list {
@@ -345,6 +346,14 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.customer-list {
+  display: flex;
+}
+
+.customer-icon {
+  fill: #757575
 }
 
 /*footer*/
