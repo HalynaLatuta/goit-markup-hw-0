@@ -376,7 +376,7 @@ img {
 }
 
 .icon {
-  fill: #AFB1B8;
+  fill: var(--acent-color);
 }
 
 .sm-link-icon:hover .icon,
@@ -409,7 +409,7 @@ img {
 }
 
 .customer-icon {
-  fill: var(--color-svg-customer);
+  fill: var(--acent-color);
 }
 
 .customer-list-item {
