@@ -160,6 +160,7 @@ img {
 .phone-svg,
 .mail-svg {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 /*main*/
@@ -334,6 +335,16 @@ img {
 
 .our-team-section-list-card:last-child {
   margin-right: 0;
+}
+
+/*customers*/
+
+.customer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /*footer*/
