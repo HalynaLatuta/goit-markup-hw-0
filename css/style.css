@@ -157,6 +157,10 @@ img {
   color: var(--color-button-accent);
 }
 
+.phone-svg,
+.mail-svg {
+  fill: currentColor;
+}
 
 /*main*/
 .hero {
@@ -199,6 +203,16 @@ img {
   background-color: #188CE8;
   color: var(--color-text-white);
   border: none;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)),
+    url(../img/backgtound-img.jpg);
 }
 
 /* about features*/
