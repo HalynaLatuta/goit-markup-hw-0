@@ -368,6 +368,7 @@ img {
   border-radius: 50%;
   width: 44px;
   height: 44px;
+  fill: var(--acent-color);
 }
 
 .sm-link-icon:hover,
@@ -438,6 +439,14 @@ img {
   padding-bottom: 60px;
 }
 
+.footer-sections {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
 .logo.bottom {
   display: inline-block;
   color: var(--primary-bg-color);
@@ -479,6 +488,46 @@ img {
 
 .adress-contacts-link {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*footer social link*/
+.social-link-footer {
+  display: inline-block;
+  margin-left: 70px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-white);
+}
+.sm-footer-block {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.sm-footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-footer {
+  color: var(--color-text-white);
+}
+.sm-footer-icon:hover,
+.sm-footer-icon:focus {
+  background-color: var(--color-button-accent);
+}
+.sm-footer-icon:hover .icon-footer,
+.sm-footer-icon:focus .icon-footer {
+  fill: var(--color-text-white);
 }
 
 /*portfolio*/
