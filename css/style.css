@@ -144,7 +144,6 @@ img {
 
 .contacts-link {
   display: block;
-  color: var(--primary-text-colo);
   color: var(--secont-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -153,16 +152,13 @@ img {
   padding: 30px 0px 30px;
 }
 
+.icon-header {
+  fill: var(--secont-text-color);
+  margin-right: 10px;
+}
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--color-button-accent);
-}
-
-.phone-svg,
-.mail-svg {
-  fill: var(--secont-text-color);
-  padding-right: 10px;
-  align-content: center;
 }
 
 /*main*/
@@ -519,7 +515,7 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 .icon-footer {
-  color: var(--color-text-white);
+  fill: var(--color-text-white);
 }
 .sm-footer-icon:hover,
 .sm-footer-icon:focus {
