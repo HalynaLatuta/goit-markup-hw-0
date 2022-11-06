@@ -346,6 +346,7 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .customer-list {
@@ -357,7 +358,6 @@ img {
   justify-content: center;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-  fill: var(--secont-text-color);
 }
 
 .customer-icon {
@@ -372,7 +372,11 @@ img {
 .customer-list-item:last-child{
   margin-right: 0;
 }
-
+.customer:hover,
+.customer:focus {
+  fill: var(--color-button-accent);
+  border: 1px solid #2196F3;
+}
 
 /*footer*/
 .footer {
