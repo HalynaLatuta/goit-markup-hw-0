@@ -15,6 +15,7 @@
   --card-border-color: #eeeeee;
   --color-text-white: #FFFFFF;
   --acent-color: #AFB1B8;
+  --color-logo: #000000;
 }
 
 body {
@@ -109,11 +110,11 @@ img {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--color-button-accent);
 }
 
 .logo-last-part {
-  color: var(--color-button-accent);
+  color: var(--color-logo);
 }
 
 .site-nav {
@@ -209,7 +210,6 @@ img {
 
 .overlay {
   max-width: 1600px;
-  height: 600px;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
@@ -448,13 +448,21 @@ img {
   align-items: baseline;
 }
 
+
 .footer-contacts {
   margin-right: 70px;
 }
-.logo.bottom {
+
+.logo-footer {
   display: inline-block;
-  color: var(--primary-bg-color);
+  color: var(--color-button-accent);
   margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-button-accent);
 }
 
 .address {
@@ -471,7 +479,9 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
 }
-
+.logo-last-part-footer {
+  color: var(--color-text-white);
+}
 .address-list-item {
   margin-bottom: 10px;
 }
