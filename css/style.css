@@ -153,9 +153,11 @@ img {
 }
 
 .icon-header {
-  fill: var(--secont-text-color);
+  fill: currentColor;
   margin-right: 10px;
+  justify-content: flex-end;
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--color-button-accent);
@@ -267,6 +269,10 @@ img {
 }
 
 /* section wedo*/
+
+ .works {
+  padding-top: 0;
+} 
 
 .section-title.works {
   font-size: 36px;
@@ -418,8 +424,8 @@ img {
   margin-right: 0;
 }
 
-.customer-list-item:hover,
-.customer-list-item:focus {
+.customer:hover,
+.customer:focus {
   fill: var(--color-button-accent);
   border: 1px solid #2196F3;
 }
